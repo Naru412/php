@@ -1,0 +1,18 @@
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    /* 外側の余白 */
+    padding: 20px 15px;
+    /* 内側の余白 */
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}

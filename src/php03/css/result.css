@@ -1,0 +1,49 @@
+.result__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+.result {
+    text-align: center;
+}
+
+.result__text--correct {
+    color: #ff0000;
+    /*クラス名に--(ダブルハイフン)があるのはＢＥＭ記法の「状態変化」*/
+}
+
+.result__text--incorrect {
+    color: #0000ff;
+}
+
+.answer-table {
+    border: 1px solid #ddd;
+    /*表全体に薄いグレーの外枠*/
+}
+
+.answer-table__inner {
+    width: 100%;
+    /*テーブルの中身を親要素いっぱいに広げる*/
+}
+
+.answer-table__header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.answer-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    /*答えの内容*/
+}
+
+.answer-table__row:last-child .answer-table__header,
+.answer-table__row:last-child .answer-table__text {
+    border-bottom-width: 0;
+    /*最後の行だけ下線を消す指定
+    テーブルの最下段に線が二重に見えないようにしている*/
+}
